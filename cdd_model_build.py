@@ -180,7 +180,7 @@ def cat_boost(x, y):
 
 
 def main():
-    data = pd.read_csv("final_model_data.csv")
+    data = pd.read_csv("/home/ibab/PycharmProjects/CDD_Project/final_model_data.csv")
     # print(data.columns)
     data.drop(["Molecule_ChEMBL_ID"], inplace=True, axis=1)
     # print(data.columns)
